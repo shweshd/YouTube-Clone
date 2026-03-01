@@ -1,0 +1,125 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Roboto", Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding-top: 80px;
+    padding-left: 93px;
+padding-right:24px;
+background-color:rgb(253, 253, 253);
+  }
+
+       /* Video Grid */
+  .video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    column-gap: 1px;
+    row-gap: 1px;
+    padding: 24px;
+    margin:10px;
+  }
+
+  .thumbnail-row {
+    position: relative;
+padding:8px;
+  }
+
+  .thumbnail {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    object-fit:cover;
+    cursor: pointer;
+  }
+
+  .video-info {
+    display: flex;
+    gap: 10px;
+    padding: 8px;
+    cursor: pointer;
+  }
+
+  .pp {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    cursor: pointer;
+  }
+
+  .title {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 5px;
+  }
+
+  .channel-name {
+    font-size: 14px;
+    font-weight: 400;
+    color: #606060;
+    margin-top: 2px;
+  }
+
+  .checkmark {
+    display: inline-block;
+    color: black;
+    background-color:#b8b5b5;
+    border-radius: 20px;
+    padding: 1px 4px 1px 4px;
+    font-size: 10px;
+    font-weight: bold;
+  }
+
+  .views {
+    font-size: 12px;
+    color: #606060;
+    margin-bottom: 2px;
+  }
+  
+  .video-time {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 1px 4px;
+    font-size: 12px;
+    font-weight:500;
+    border-radius: 3px;
+    bottom: 18px;
+    right: 14px;
+    opacity:1;
+    cursor: pointer;
+  }
+  .video-time:hover{
+    transition: opacity 0.3s ease;
+    opacity:0;
+  }
+
+  @media (max-width:975px){
+    .video-grid{
+      grid-template-columns:1fr 1fr;
+    }
+    
+  }
+@media (min-width:976px) and (max-width:999px) {
+ .video-grid{ grid-template-columns: 1fr 1fr 1fr;
+}}
+
+  @media (min-width:1000px){
+    .video-grid{
+      grid-template-columns:1fr 1fr 1fr;
+    }
+  }
+  footer{
+  text-align:center;
+  padding:60px;
+  opacity:0.6;
+}
+
+  

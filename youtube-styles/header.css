@@ -1,0 +1,221 @@
+
+  /* Header Styles */
+  .header {
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    background-color: white;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    z-index: 100;
+  }
+
+  .left-section {
+    display: flex;
+    align-items: center;
+    width: 169px;
+  }
+
+  .hamburger {
+    width: 34px;
+    padding: 8px;
+    cursor: pointer;
+  }
+
+  .youtube-logo {
+    width: 120px;
+    height: auto;
+    padding: 18px 14px 18px 16px;
+    cursor: pointer;
+  }
+
+  /* Middle Section - Search */
+  .middle-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 700px;
+  }
+
+  .search-bar {
+    flex: 1;
+    width: 0;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-family: "Roboto", Arial, sans-serif;
+    border: 1px solid rgb(211, 211, 211);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.07);
+  }
+
+  .search-bar:focus {
+  outline: none;                 /* removes default browser outline */
+  border: 1px solid blue;        /* changes border color */
+}
+
+
+
+  .search-bar::placeholder {
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 16px;
+  }
+
+  .search-b {
+    height: 40px;
+    width: 64px;
+
+    background-color: rgb(240, 240, 240);
+    border: 1px solid rgb(211, 211, 211);
+    border-left: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+       justify-content:center;
+align-items:center;
+display:flex;
+flex-direction:column;
+  }
+
+  .search-button {
+    height: 24px;
+    width: 24px;
+    background-color: transparent;
+
+    border: none;
+    cursor: pointer;
+           justify-content:center;
+align-items:center;
+display:flex;
+flex-direction:column;
+position:relative;
+  }
+
+ .search-b .tooltip, 
+ .bell-b .tooltip ,
+ .mic-b .tooltip{
+    position:absolute;
+    background-color:rgb(123, 123, 123);
+    color:white;
+    padding-left:8px;
+    padding-right:8px;
+    padding-top:4px;
+    padding-bottom:4px;
+    border-radius:4px;
+    top:50px;
+    font-family:"roboto",arial;
+    font-size:12px;
+    opacity:0;
+    transition: opacity 0.15s ease;
+    pointer-events:none;
+    white-space:nowrap;
+  }
+  
+.search-b:hover .tooltip,
+.bell-b:hover .tooltip,
+ .mic-b:hover .tooltip{
+  opacity:1;
+}
+.search-b,
+.mic-b,
+.bell-b{
+  display:flex;
+  justify-content:center;
+  position:relative;
+  align-items:center;
+}
+
+  .mic-b {
+    width: 40px;
+    height: 40px;
+    margin-left: 14px;
+    padding: 8px;
+    background-color: rgb(240, 240, 240);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .mic {
+    width: 24px;
+    height: 24px;
+  }
+
+  /* Right Section */
+  .right-section {
+    display: flex;
+    width: 200px;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+  }
+
+  .bell-b {
+    margin-top:4px;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .bell {
+    width: 24px;
+    height: 24px;
+  }
+
+  .bell-container{
+    position:relative;
+  }
+  .notification-count{
+    position:absolute;
+    top:-4px;
+    right:-2px;
+    background-color:red;
+    color:white;
+    font-family: "roboto", arial;
+    font-size:12px;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:2px;
+    padding-bottom:2px;
+    border-radius:20px;
+  }
+
+  .create-button {
+    height: 40px;
+    width: 97px;
+    padding: 0 16px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: rgb(240, 240, 240);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .create {
+    width: 16px;
+    height: auto;
+  }
+
+  .profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(240, 240, 240);
+    cursor: pointer;
+  }
+
