@@ -1,87 +1,60 @@
-1️⃣ Project Title
-# YouTube-Clone
+YouTube-Clone
 
-Add one-line description below it:
+A frontend clone of YouTube built using HTML5 and CSS3 to demonstrate layout structuring and styling skills.
 
-A frontend clone of YouTube built using HTML5 and CSS3 to demonstrate layout and styling skills.
+Live Demo
 
-2️⃣ Live Demo
+https://shweshd.github.io/YouTube-Clone/
 
-Since it is hosted using GitHub Pages, add:
+About the Project
 
-## Live Demo
-🔗 https://shweshd.github.io/YouTube-Clone/
+This project is a static UI clone of YouTube created to practice frontend development fundamentals. It focuses on replicating the homepage layout using pure HTML and CSS without any JavaScript or backend integration.
 
-Recruiters prefer live projects.
+The goal of this project is to strengthen understanding of page structure, layout alignment, and responsive design basics.
 
-3️⃣ About the Project
+Features
 
-Brief paragraph:
+Navigation bar layout
 
-Built to practice frontend fundamentals
+Sidebar menu
 
-Focus on layout replication
+Video thumbnail grid
 
-Pure HTML and CSS
+Channel name and video title display
 
-Static UI clone
+Clickable thumbnails redirecting to YouTube
 
-Keep it short. Do not over-explain.
+Runs directly in the browser
 
-4️⃣ Features
+Tech Stack
 
-Use bullet points:
+HTML5
 
-## Features
+CSS3
 
-- Responsive homepage layout
-- Navigation bar and sidebar
-- Video thumbnail grid
-- Clickable thumbnails redirecting to YouTube
-- Clean and structured UI
-5️⃣ Tech Stack
-## Tech Stack
-
-- HTML5
-- CSS3
-
-Keep it simple since no JS is used.
-
-6️⃣ Project Structure
-
-Show basic folder structure:
+Project Structure
 
 YouTube-Clone/
 │── index.html
 │── style.css
 │── images/
-7️⃣ How to Run Locally
-## How to Run
 
-1. Clone the repository
-2. Open index.html in any browser
+How to Run Locally
 
-No complicated instructions.
+Clone the repository
 
-8️⃣ Limitations
+Open index.html in any modern browser
 
-This shows honesty and maturity:
+No installation or dependencies required.
 
-## Limitations
+Limitations
 
-- No backend integration
-- No real video player
-- No search functionality
-- Static UI only
+No backend integration
 
-Recruiters appreciate clarity.
+No real video playback system
 
-9️⃣ Future Improvements (Optional)
+No search functionality
 
-Add only if serious:
+Static content only
 
-## Future Improvements
-
-- Add JavaScript functionality
-- Integrate YouTube API
-- Improve responsiveness
+Not fully optimized for all screen sizes
