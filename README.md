@@ -1,60 +1,76 @@
-YouTube-Clone
+# YouTube Clone (HTML & CSS Only)
 
-A frontend clone of YouTube built using HTML5 and CSS3 to demonstrate layout structuring and styling skills.
+## 🌐 Live Demo
+🔗 https://shweshd.github.io/YouTube-Clone/
 
-Live Demo
+---
 
-https://shweshd.github.io/YouTube-Clone/
+## 📌 Project Overview
 
-About the Project
+This project is a front-end clone of the YouTube homepage built using only HTML and CSS.  
+It replicates the layout, structure, and visual styling of YouTube without using JavaScript.
 
-This project is a static UI clone of YouTube created to practice frontend development fundamentals. It focuses on replicating the homepage layout using pure HTML and CSS without any JavaScript or backend integration.
+The focus of this project was UI design, layout structuring, and responsive web development.
 
-The goal of this project is to strengthen understanding of page structure, layout alignment, and responsive design basics.
+---
 
-Features
+## 🛠️ Technologies Used
 
-Navigation bar layout
+- HTML5
+- CSS3
+- Flexbox
+- CSS Grid
 
-Sidebar menu
+No JavaScript was used in this project.
 
-Video thumbnail grid
+---
 
-Channel name and video title display
+## ✨ Features
 
-Clickable thumbnails redirecting to YouTube
+- YouTube-inspired homepage layout
+- Responsive design (works on desktop, tablet, and mobile)
+- Header with search bar and icons
+- Sidebar navigation menu
+- Video grid layout using Flexbox/Grid
+- Hover effects on thumbnails and buttons
+- Clicking on video thumbnails redirects to the real YouTube
 
-Runs directly in the browser
+---
 
-Tech Stack
+## 📂 Project Structure
 
-HTML5
+- index.html  
+- style.css (CSS styling file)  
+- assets folder (images/icons if used)
 
-CSS3
+---
 
-Project Structure
+## 🎯 Learning Goals
 
-YouTube-Clone/
-│── index.html
-│── style.css
-│── images/
+Through this project, I practiced:
 
-How to Run Locally
+- Creating real-world UI clones
+- Using Flexbox and Grid for layout design
+- Building responsive structures
+- Improving CSS positioning and alignment
+- Writing clean and organized front-end code
 
-Clone the repository
+---
 
-Open index.html in any modern browser
+## 🚀 Future Improvements
 
-No installation or dependencies required.
+- Add JavaScript for dynamic functionality
+- Create a video playback page
+- Improve animations and transitions
+- Enhance UI accuracy further
 
-Limitations
+---
 
-No backend integration
+## 👨‍💻 Author
 
-No real video playback system
+Shwesh Dubey  
+GitHub: https://github.com/shweshd
 
-No search functionality
+---
 
-Static content only
-
-Not fully optimized for all screen sizes
+© 2026 Shwesh Dubey
