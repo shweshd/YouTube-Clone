@@ -69,8 +69,9 @@ Through this project, I practiced:
 ## 👨‍💻 Author
 
 Shwesh Dubey  
-GitHub: https://github.com/shweshd
-
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-shweshdubey-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/shweshdubey/)
+[![GitHub](https://img.shields.io/badge/GitHub-shweshd-181717?style=flat-square&logo=github)](https://github.com/shweshd/)
+[![Email](https://img.shields.io/badge/Email-shweshd@gmail.com-D14836?style=flat-square&logo=gmail)](mailto:shweshd@gmail.com)
 ---
 
 © 2026 Shwesh Dubey
